@@ -1,0 +1,54 @@
+<div id="medicines-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="../../../../../assets/img/app/medicine.png" width="150" height="150"/>
+        <br/><br/><br/>
+        <h2>Medicines Actions</h2>
+        <hr/>
+        <button class="btn btn-success" (click)="showAddMedicineModal()">Add New Medicine</button>
+      </div>
+    </div>
+    <hr/>
+    <br/>
+    <h3>Medicines List</h3>
+    <hr/>
+    <br/>
+    <div class="row">
+      <div class="col-md-1">
+        <img src="../../../../../assets/img/app/search.ico" width="45" height="45"/>
+      </div>
+      <div class="col-md-11">
+        <input type="text" name="search"  class="form-control" id="search" placeholder="Search.."/>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <td>Id</td>
+              <td>Title</td>
+              <td>Description</td>
+              <td>Actions</td>
+            </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let med of medicines">
+            <td>{{med.id}}</td>
+            <td>{{med.title}}</td>
+            <td>{{med.description}}</td>
+            <td>
+              <button class="btn btn-warning" (click)="showEditMedicineModal(med.id)">Edit</button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <app-edit-medicine-modal #editMedicineModal></app-edit-medicine-modal>
+  <app-add-medicine-modal #addMedicineModal></app-add-medicine-modal>
+</div>

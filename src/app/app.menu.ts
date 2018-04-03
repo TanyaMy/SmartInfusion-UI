@@ -33,7 +33,7 @@ export const MENU = [
         ]
       },
       {
-        path: r.patientRequest,
+        path: r.diseaseHistory,
         data: {
           menu: {
             title: 'Patients',
@@ -55,6 +55,19 @@ export const MENU = [
                 expanded: false,
                 order: 0,
                 roles: [AppEnums.roles.patient, AppEnums.roles.medicalEmployee]
+              }
+            },
+          },
+          {
+            path: r.create,
+            data: {
+              menu: {
+                title: 'Create patient history',
+                icon: null,
+                selected: true,
+                expanded: false,
+                order: 0,
+                roles: [AppEnums.roles.medicalEmployee]
               }
             },
           }

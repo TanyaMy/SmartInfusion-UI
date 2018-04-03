@@ -10,7 +10,7 @@ export let AppEnums = {
     details: 'details',
     create: 'create',
     requestSent: 'requestSent',
-    patientRequest: 'patientRequest'
+    diseaseHistory: 'diseaseHistory',
   },
 
   storageTypes: {

@@ -16,6 +16,7 @@ import {pagesRouting} from "./pages.routing";
 import {
   CreateDiseaseHistoryFormComponent
 } from "./components/diseaseHistory/createDiseaseHistory/components/createDiseaseHistoryForm/createDiseaseHistoryForm.component";
+import {DiseaseHistoryResource} from "./components/diseaseHistory/diseaseHistory.resource";
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import {
     pagesRouting
   ],
   providers: [
-    MedicinesResource
+    MedicinesResource,
+    DiseaseHistoryResource
   ]
 })
 export class PagesModule {

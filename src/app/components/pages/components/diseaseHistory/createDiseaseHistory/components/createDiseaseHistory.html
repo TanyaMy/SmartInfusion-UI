@@ -5,7 +5,10 @@
       <hr/><br/>
 
       <div class="form-container container">
-        <app-create-disease-history-form #createDiseaseHistoryForm></app-create-disease-history-form>
+        <app-create-disease-history-form #createDiseaseHistoryForm
+                                         (formSubmitted)="submitDiseaseHistoryForm()">
+
+        </app-create-disease-history-form>
       </div>
     </div>
   </div>

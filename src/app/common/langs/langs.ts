@@ -6,7 +6,7 @@ export let Lang = {
   "USER_ACTIVATED": "User '{0} {1}' was successfully activated",
   "USER_DELETED": "User '{0} {1}' was successfully deleted",
 
-  "DONOR_REQUEST_SEND": "Donor request has been submitted successfully!",
+  "DISEASE_HISTORY_CREATED": "Disease history has been submitted successfully!",
 
   "ADD_MEDICINE_SUCCESS": "New medicine has been added successfully!",
   "EDIT_MEDICINE_SUCCESS": "Medicine has been modified successfully!",

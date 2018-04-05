@@ -17,6 +17,7 @@ import {
   CreateDiseaseHistoryFormComponent
 } from "./components/diseaseHistory/createDiseaseHistory/components/createDiseaseHistoryForm/createDiseaseHistoryForm.component";
 import {DiseaseHistoryResource} from "./components/diseaseHistory/diseaseHistory.resource";
+import {DiseaseHistoryListPageComponent} from "./components/diseaseHistory/diseaseHistoryList/diseaseHistoryList.component";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {DiseaseHistoryResource} from "./components/diseaseHistory/diseaseHistory
     EditMedicineModalComponent,
     RequestSentPageComponent,
     CreateDiseaseHistoryPageComponent,
-    CreateDiseaseHistoryFormComponent
+    CreateDiseaseHistoryFormComponent,
+    DiseaseHistoryListPageComponent
   ],
   imports: [
     CommonModule,

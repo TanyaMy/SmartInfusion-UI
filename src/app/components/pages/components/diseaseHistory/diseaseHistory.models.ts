@@ -40,3 +40,16 @@ export interface IUserInfoDetailedViewModel {
   phoneNumber: string;
   weigth: number;
 }
+
+export interface IDiseaseHistoryListItem {
+  id: number;
+  patientInfoId: number;
+  email: string;
+  firstName: string;
+  secondName: string;
+  birthDate: Date;
+}
+
+export interface IDiseaseHistoryList {
+  diseaseHistoryList: Array<IDiseaseHistoryListItem>;
+}

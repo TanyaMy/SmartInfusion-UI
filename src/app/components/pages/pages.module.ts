@@ -18,6 +18,9 @@ import {
 } from "./components/diseaseHistory/createDiseaseHistory/components/createDiseaseHistoryForm/createDiseaseHistoryForm.component";
 import {DiseaseHistoryResource} from "./components/diseaseHistory/diseaseHistory.resource";
 import {DiseaseHistoryListPageComponent} from "./components/diseaseHistory/diseaseHistoryList/diseaseHistoryList.component";
+import {DiseaseHistoryDetailsPageComponent} from "./components/diseaseHistory/details/diseaseHistoryDetails.component";
+import {MetricsResource} from "./components/metrics/metrics.resource";
+import {MetricsPageComponent} from "./components/metrics/metrics.component";
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import {DiseaseHistoryListPageComponent} from "./components/diseaseHistory/disea
     RequestSentPageComponent,
     CreateDiseaseHistoryPageComponent,
     CreateDiseaseHistoryFormComponent,
-    DiseaseHistoryListPageComponent
+    DiseaseHistoryListPageComponent,
+    DiseaseHistoryDetailsPageComponent,
+    MetricsPageComponent
   ],
   imports: [
     CommonModule,
@@ -41,7 +46,8 @@ import {DiseaseHistoryListPageComponent} from "./components/diseaseHistory/disea
   ],
   providers: [
     MedicinesResource,
-    DiseaseHistoryResource
+    DiseaseHistoryResource,
+    MetricsResource
   ]
 })
 export class PagesModule {

@@ -1,4 +1,5 @@
 import {Span} from "@angular/compiler-cli";
+import {IMetricListItem} from "../metrics/metrics.models";
 
 export interface ICreateDiseaseHistoryViewModel {
   email: string;
@@ -38,7 +39,7 @@ export interface IUserInfoDetailedViewModel {
   city: string;
 
   phoneNumber: string;
-  weigth: number;
+  weight: number;
 }
 
 export interface IDiseaseHistoryListItem {
@@ -52,4 +53,26 @@ export interface IDiseaseHistoryListItem {
 
 export interface IDiseaseHistoryList {
   diseaseHistoryList: Array<IDiseaseHistoryListItem>;
+}
+
+export interface IDiseaseHistoryDetailsViewModel {
+  id: number;
+  patientInfo: IUserInfoDetailedViewModel;
+  message: string;
+  metrics: Array<IMetricListItem>;
+  treatments: Array<ITreatmentListItem>;
+}
+
+export interface IDiseaseHistoryDetailsList {
+  diseaseHistoryDetailsList: Array<IDiseaseHistoryDetailsViewModel>;
+}
+
+export interface ITreatmentListItem {
+  id: number;
+  medicineId: number;
+  diseaseHistoryId: number;
+  diagnosis: string;
+  medicineWeight: number;
+  solutionVolume: number;
+  Dosage: number;
 }

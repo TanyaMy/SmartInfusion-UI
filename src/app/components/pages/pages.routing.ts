@@ -8,6 +8,8 @@ import {
 } from "./components/diseaseHistory/createDiseaseHistory/components/createDiseaseHistory.component";
 import {DiseaseHistoryListPageComponent} from "./components/diseaseHistory/diseaseHistoryList/diseaseHistoryList.component";
 import {DiseaseHistoryDetailsPageComponent} from "./components/diseaseHistory/details/diseaseHistoryDetails.component";
+import {MetricsPageComponent} from "./components/metrics/metrics.component";
+import {TreatmentsPageComponent} from "./components/treatments/treatments.component";
 
 
 const r = AppEnums.routes;
@@ -21,7 +23,11 @@ const routes: Routes = [
       {path: r.diseaseHistory + '/' + r.create, component: CreateDiseaseHistoryPageComponent},
       {path: r.diseaseHistory + '/' + r.requestSent, component: RequestSentPageComponent},
       {path: r.diseaseHistory + '/' + r.list, component: DiseaseHistoryListPageComponent},
-      {path: r.diseaseHistory + '/' + r.details + '/:diseaseHistoryId', component: DiseaseHistoryDetailsPageComponent}
+      {path: r.diseaseHistory + '/' + r.details + '/:diseaseHistoryId', component: DiseaseHistoryDetailsPageComponent},
+
+      {path: r.metrics + '/:diseaseHistoryId', component: MetricsPageComponent},
+
+      {path: r.treatments + '/:diseaseHistoryId', component: TreatmentsPageComponent}
     ]
   }
 ];

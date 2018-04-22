@@ -21,6 +21,14 @@ import {DiseaseHistoryListPageComponent} from "./components/diseaseHistory/disea
 import {DiseaseHistoryDetailsPageComponent} from "./components/diseaseHistory/details/diseaseHistoryDetails.component";
 import {MetricsResource} from "./components/metrics/metrics.resource";
 import {MetricsPageComponent} from "./components/metrics/metrics.component";
+import {AddMetricsModalComponent} from "./components/metrics/editMetricsModal/add-metrics-modal.component";
+import {EditMetricsModalComponent} from "./components/metrics/editMetricsModal/edit-metrics-modal.component";
+import {TreatmentResource} from "./components/treatments/treatments.resource";
+import {TreatmentsPageComponent} from "./components/treatments/treatments.component";
+import {EditTreatmentModalComponent} from "./components/treatments/editTreatmentModal/edit-treatment-modal.component";
+import {AddTreatmentModalComponent} from "./components/treatments/editTreatmentModal/add-treatment-modal.component";
+import {CompleteTreatmentModalComponent} from "./components/treatments/completeTreatmentModal/completeTreatmentModal.component";
+import { TextMaskModule } from 'angular2-text-mask';
 
 @NgModule({
   declarations: [
@@ -33,22 +41,29 @@ import {MetricsPageComponent} from "./components/metrics/metrics.component";
     CreateDiseaseHistoryFormComponent,
     DiseaseHistoryListPageComponent,
     DiseaseHistoryDetailsPageComponent,
-    MetricsPageComponent
+    MetricsPageComponent,
+    AddMetricsModalComponent,
+    EditMetricsModalComponent,
+    TreatmentsPageComponent,
+    EditTreatmentModalComponent,
+    AddTreatmentModalComponent,
+    CompleteTreatmentModalComponent
   ],
   imports: [
     CommonModule,
     CoreModule,
     FormsModule,
-
     NgbModule,
-
-    pagesRouting
+    pagesRouting,
+    TextMaskModule
   ],
   providers: [
     MedicinesResource,
     DiseaseHistoryResource,
-    MetricsResource
+    MetricsResource,
+    TreatmentResource
   ]
 })
+
 export class PagesModule {
 }

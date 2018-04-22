@@ -1,0 +1,95 @@
+<ng-template #modalContent let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title">{{headerText}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="cancelClose()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div class="modal-body">
+    <form #treatmentForm="ngForm">
+
+      <div class="form-group">
+        <label for="medicinesInput">Medicine</label>
+        <select class="form-control" id="medicinesInput" name="medicinesInputName"
+                #medicinesInput="ngModel" [(ngModel)]="entity.medicineId" required>
+          <option *ngFor="let med of medicines" value="{{med.id}}">{{med.title}}</option>
+        </select>
+
+        <div class="form-control-feedback">
+          <span class="text-danger align-middle" *ngIf="medicinesInput.errors && $submitted">
+            <p [hidden]="!medicinesInput.errors.required" class="validation-error">
+              <i class="fa fa-close"></i> This field is required
+            </p>
+          </span>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label for="diagnosisTitleInput">Diagnosis</label>
+        <input type="text" class="form-control" id="diagnosisTitleInput" placeholder="Enter diagnosis"
+               name="diagnosisTitleInputName" #diagnosisTitleInput="ngModel" [(ngModel)]="entity.diagnosis" required autofocus>
+
+        <div class="form-control-feedback">
+          <span class="text-danger align-middle" *ngIf="diagnosisTitleInput.errors && $submitted">
+            <p [hidden]="!diagnosisTitleInput.errors.required" class="validation-error">
+              <i class="fa fa-close"></i> This field is required
+            </p>
+          </span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="weighInput">Medicine Weight</label>
+        <input type="number"  step="0.01"
+               ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/"
+               (change)="setTwoNumberDecimal($event)"
+               (ngModelChange)="entity.medicineWeight=$event"
+               [ngModel]="entity.medicineWeight | number :'1.2–2'"
+               class="form-control" id="weighInput"
+               required>
+
+      </div>
+
+
+      <div class="form-group">
+        <label for="volumeInput">Solution Volume</label>
+        <input type="number" step="0.01" class="form-control" id="volumeInput" placeholder="Enter medicine weight"
+               name="volumeInputName" #volumeInput="ngModel" [(ngModel)]="entity.solutionVolume" required autofocus>
+
+        <div class="form-control-feedback">
+          <span class="text-danger align-middle" *ngIf="volumeInput.errors && $submitted">
+            <p [hidden]="!volumeInput.errors.required" class="validation-error">
+              <i class="fa fa-close"></i> This field is required
+            </p>
+          </span>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label for="dosageInput">Dosage</label>
+        <input type="number" step="0.01" class="form-control" id="dosageInput" placeholder="Enter medicine weight"
+               name="dosageInputName" #dosageInput="ngModel" [(ngModel)]="entity.dosage" required autofocus>
+
+        <div class="form-control-feedback">
+          <span class="text-danger align-middle" *ngIf="dosageInput.errors && $submitted">
+            <p [hidden]="!dosageInput.errors.required" class="validation-error">
+              <i class="fa fa-close"></i> This field is required
+            </p>
+          </span>
+        </div>
+      </div>
+
+
+    </form>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-success" (click)="setSubmitted(true) && treatmentForm.valid && save()">
+      Save
+    </button>
+    <button type="button" class="btn btn-outline-dark" (click)="cancelClose()">Cancel</button>
+  </div>
+</ng-template>

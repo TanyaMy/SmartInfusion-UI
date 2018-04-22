@@ -4,9 +4,11 @@
       <div class="col-md-12">
         <img src="../../../../../assets/img/app/medicine.png" width="150" height="150"/>
         <br/><br/><br/>
-        <h2>Medicines Actions</h2>
-        <hr/>
-        <button class="btn btn-success" (click)="showAddMedicineModal()">Add New Medicine</button>
+        <div *ngIf="showEditMedicines()">
+          <h2>Medicines Actions</h2>
+          <hr/>
+          <button *ngIf="showEditMedicines()" class="btn btn-success" (click)="showAddMedicineModal()">Add New Medicine</button>
+        </div>
       </div>
     </div>
     <hr/>
@@ -31,7 +33,7 @@
               <td>Id</td>
               <td>Title</td>
               <td>Description</td>
-              <td>Actions</td>
+              <td *ngIf="showEditMedicines()">Actions</td>
             </tr>
           </thead>
           <tbody>
@@ -39,7 +41,7 @@
             <td>{{med.id}}</td>
             <td>{{med.title}}</td>
             <td>{{med.description}}</td>
-            <td>
+            <td *ngIf="showEditMedicines()">
               <button class="btn btn-warning" (click)="showEditMedicineModal(med.id)">Edit</button>
             </td>
           </tr>

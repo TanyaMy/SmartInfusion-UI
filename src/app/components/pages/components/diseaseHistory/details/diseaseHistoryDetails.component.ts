@@ -9,6 +9,7 @@ import {UserService} from "../../../../../common/services/userService";
 import {IDiseaseHistoryDetailsList, IDiseaseHistoryDetailsViewModel} from "../diseaseHistory.models";
 import {DiseaseHistoryResource} from "../diseaseHistory.resource";
 import {IContentResponseWrapper} from "../../../../../models/interfaces/apiRespone/responseWrapper";
+import {AppEnums} from "../../../../../app.constants";
 
 @Component({
   selector: 'app-disease-history-details-page',
@@ -25,6 +26,7 @@ export class DiseaseHistoryDetailsPageComponent implements OnInit, OnDestroy {
               private medicinesResource: MedicinesResource,
               private preloaderService: PreloaderService,
               private route: ActivatedRoute,
+              private router: Router,
               private notificationService: NotificationService,
               private userService: UserService) {
   }
@@ -81,4 +83,41 @@ export class DiseaseHistoryDetailsPageComponent implements OnInit, OnDestroy {
     return new Date(Date.parse(date)).toLocaleDateString("en-US");
   }
 
+  public getTreatmentsActionForRole() {
+    const roleName = this.userService.getUserInfo().roleName;
+    if (roleName === AppEnums.roles.doctor) {
+      return "Manage";
+    }
+    if (roleName === AppEnums.roles.nurse) {
+      return "View";
+    }
+    return "";
+  }
+
+  public getMetricsActionForRole() {
+    const roleName = this.userService.getUserInfo().roleName;
+    if (roleName === AppEnums.roles.doctor) {
+      return "View";
+    }
+    if (roleName === AppEnums.roles.nurse) {
+      return "Manage";
+    }
+    return "";
+  }
+
+  public goToMetrics(diseaseHistoryId: number): void {
+    this.router.navigate([
+      AppEnums.routes.pages,
+      AppEnums.routes.metrics,
+      diseaseHistoryId
+    ]);
+  }
+
+  public goToTreatments(diseaseHistoryId: number): void {
+    this.router.navigate([
+      AppEnums.routes.pages,
+      AppEnums.routes.treatments,
+      diseaseHistoryId
+    ]);
+  }
 }

@@ -14,7 +14,7 @@ export const MENU = [
             selected: true,
             expanded: false,
             order: 0,
-            roles: [AppEnums.roles.admin, AppEnums.roles.medicalEmployee]
+            roles: [AppEnums.roles.admin, AppEnums.roles.doctor, AppEnums.roles.nurse]
           }
         },
         children: [
@@ -26,7 +26,7 @@ export const MENU = [
                 selected: true,
                 expanded: false,
                 order: 0,
-                roles: [AppEnums.roles.admin,  AppEnums.roles.medicalEmployee]
+                roles: [AppEnums.roles.admin,  AppEnums.roles.doctor, AppEnums.roles.nurse]
               }
             }
           }
@@ -54,7 +54,7 @@ export const MENU = [
                 selected: true,
                 expanded: false,
                 order: 0,
-                roles: [AppEnums.roles.patient, AppEnums.roles.medicalEmployee]
+                roles: [AppEnums.roles.patient, AppEnums.roles.doctor, AppEnums.roles.nurse]
               }
             },
           },
@@ -67,7 +67,7 @@ export const MENU = [
                 selected: true,
                 expanded: false,
                 order: 0,
-                roles: [AppEnums.roles.medicalEmployee]
+                roles: [AppEnums.roles.nurse]
               }
             },
           }

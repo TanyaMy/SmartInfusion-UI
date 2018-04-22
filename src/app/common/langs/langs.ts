@@ -11,8 +11,8 @@ export let Lang = {
   "ADD_MEDICINE_SUCCESS": "New medicine has been added successfully!",
   "EDIT_MEDICINE_SUCCESS": "Medicine has been modified successfully!",
 
-  "ADD_ORGAN_INFO_SUCCESS": "New organ info has been added successfully!",
-  "EDIT_ORGAN_INFO_SUCCESS": "Organ info has been modified successfully!",
+  "ADD_METRICS_SUCCESS": "New metrics has been added successfully!",
+  "EDIT_METRICS_SUCCESS": "Metrics has been modified successfully!",
 
-  "PATIENT_REQUEST_SEND": "Paatient request has been submitted successfully!"
+  "TREATMENT_COMPLETED": "Treatment has been completed successfully!"
 };

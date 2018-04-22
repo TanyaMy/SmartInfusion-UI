@@ -11,6 +11,8 @@ export let AppEnums = {
     create: 'create',
     requestSent: 'requestSent',
     diseaseHistory: 'diseaseHistory',
+    metrics: 'metrics',
+    treatments: 'treatments'
   },
 
   storageTypes: {
@@ -21,7 +23,9 @@ export let AppEnums = {
   roles: {
     admin: 'Administrator',
     patient: 'Patient',
-    medicalEmployee: 'MedicalEmployee'
+    medicalEmployee: 'MedicalEmployee',
+    doctor: 'Doctor',
+    nurse: 'Nurse'
   },
 
   alertType: {

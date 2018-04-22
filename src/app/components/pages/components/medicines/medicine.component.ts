@@ -8,6 +8,7 @@ import {MedicinesResource} from "./medicine.resource";
 import {IMedicine, IMedicineList} from "./medicine.models";
 import {AddMedicineModalComponent} from "./editMedicineModal/add-medicine-modal.component";
 import {EditMedicineModalComponent} from "./editMedicineModal/edit-medicine-modal.component";
+import {UserService} from "../../../../common/services/userService";
 
 @Component({
   selector: 'app-medicines-page',
@@ -22,6 +23,7 @@ export class MedicinesPageComponent implements OnInit {
 
   constructor(private medicinesResource: MedicinesResource,
               private preloaderService: PreloaderService,
+              private  userService: UserService,
               private notificationService: NotificationService) {
 
   }
@@ -56,5 +58,13 @@ export class MedicinesPageComponent implements OnInit {
         this.getAllMedicines();
       }
     });
+  }
+
+  public showEditMedicines() {
+    return this.userService.isInAdminRole || this.userService.isInDoctorRole;
+  }
+
+  public getCreatedDateTime(date) {
+    return new Date(Date.parse(date)).toLocaleDateString("en-US");
   }
 }

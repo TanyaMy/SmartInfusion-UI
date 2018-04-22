@@ -32,8 +32,8 @@
   <hr/>
   <div class="container">
     <h3>Actions</h3>
-    <button class="btn btn-success">Manage metrics</button>
-    <button class="btn btn-success">Manage treatments</button>
+    <button class="btn btn-success" (click)="goToMetrics(diseaseHistoryDetails.id)">{{getMetricsActionForRole()}} metrics</button>
+    <button class="btn btn-success" (click)="goToTreatments(diseaseHistoryDetails.id)">{{getTreatmentsActionForRole()}} treatments</button>
     <br/><br/>
   </div>
   <hr/>

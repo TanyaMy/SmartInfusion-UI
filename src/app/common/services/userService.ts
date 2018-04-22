@@ -27,7 +27,16 @@ export class UserService {
   }
 
   public get isInMedEmployeeRole() {
-    return this.isAuthenticated && this.userInfo.roleName === AppEnums.roles.medicalEmployee;
+    return this.isAuthenticated && (this.userInfo.roleName === AppEnums.roles.doctor
+      || this.userInfo.roleName === AppEnums.roles.nurse);
+  }
+
+  public get isInNurseRole() {
+    return this.isAuthenticated && (this.userInfo.roleName === AppEnums.roles.nurse);
+  }
+
+  public get isInDoctorRole() {
+    return this.isAuthenticated && (this.userInfo.roleName === AppEnums.roles.doctor);
   }
 
   public get isInPatientRole() {

@@ -50,7 +50,7 @@ export class DiseaseHistoryListPageComponent implements OnInit {
 
   private updatePageTitle(): void {
     const roleName = this.userService.getUserInfo().roleName;
-    if (roleName === AppEnums.roles.medicalEmployee) {
+    if (roleName === AppEnums.roles.doctor || roleName === AppEnums.roles.nurse) {
       this.pageTitle = "Disease history list";
     } else {
       this.pageTitle = "My disease history";

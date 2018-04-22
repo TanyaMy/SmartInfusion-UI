@@ -7,4 +7,5 @@ export interface IMetricListItem {
   diseaseHistoryId: number;
   name: string;
   value: string;
+  created: Date;
 }

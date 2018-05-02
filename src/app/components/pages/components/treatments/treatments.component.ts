@@ -101,11 +101,19 @@ export class TreatmentsPageComponent implements OnInit, OnDestroy {
     });
   }
 
-  public showEditTreatment() {
+  public showEditTreatment(treatment: ITreatmentViewModel) {
+    return this.userService.isInDoctorRole && !treatment.isCompleted;
+  }
+
+  public showEditTreatmentsButton() {
     return this.userService.isInDoctorRole;
   }
 
-  public showCompleteTreatment() {
+  public showCompleteTreatment(treatment: ITreatmentViewModel) {
+    return this.userService.isInNurseRole && !treatment.isCompleted;
+  }
+
+  public showCompleteTreatmentButton() {
     return this.userService.isInNurseRole;
   }
 

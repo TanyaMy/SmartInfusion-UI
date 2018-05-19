@@ -36,6 +36,7 @@
             <td>Medicine Weight</td>
             <td>Solution Volume</td>
             <td>Dosage</td>
+            <td>Infusion speed</td>
             <td>Time created</td>
             <td>Completed</td>
             <td *ngIf="showEditTreatmentsButton() || showCompleteTreatmentButton()">Actions</td>
@@ -48,6 +49,7 @@
             <td>{{treat.medicineWeight}}</td>
             <td>{{treat.solutionVolume}}</td>
             <td>{{treat.dosage}}</td>
+            <td>{{treat.infusionSpeed}}</td>
             <td>{{treat.created | date: 'dd/MM/yyyy HH:mm:ss'}}</td>
             <td align="center">
               <i *ngIf="treat.isCompleted" class="fa fa-check"

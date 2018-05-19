@@ -10,6 +10,7 @@ export interface ITreatmentViewModel {
   medicineWeight: number;
   solutionVolume: number;
   dosage: number;
+  infusionSpeed: number;
   isCompleted: boolean;
   created: Date;
 }

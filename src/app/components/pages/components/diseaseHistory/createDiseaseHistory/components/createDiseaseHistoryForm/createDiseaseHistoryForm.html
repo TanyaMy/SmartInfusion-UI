@@ -4,16 +4,16 @@
     <div class="row">
       <div class="col-md-6">
       <div class="form-group">
-        <label for="emailInput">Email</label>
-        <input type="email" class="form-control" id="emailInput" placeholder="Enter email"
+        <label for="emailInput" i18n>Email</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="Enter email" i18n-placeholder
                name="emailInputName" #emailInput="ngModel" [(ngModel)]="data.email" required email autofocus>
 
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="emailInput.errors && $submitted">
-            <p [hidden]="!emailInput.errors.required" class="validation-error">
+            <p [hidden]="!emailInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
-            <p [hidden]="!emailInput.errors.email" class="validation-error">
+            <p [hidden]="!emailInput.errors.email" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field should contain valid email address
             </p>
           </span>
@@ -25,13 +25,13 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <label for="firstNameInput">First Name</label>
-          <input type="text" class="form-control" id="firstNameInput" placeholder="Enter first name"
+          <label for="firstNameInput" i18n>First Name</label>
+          <input type="text" class="form-control" id="firstNameInput" placeholder="Enter first name" i18n-placeholder
                  name="firstNameInputName" #firstNameInput="ngModel" [(ngModel)]="data.firstName" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="firstNameInput.errors && $submitted">
-            <p [hidden]="!firstNameInput.errors.required" class="validation-error">
+            <p [hidden]="!firstNameInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -40,13 +40,13 @@
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label for="lastNameInput">Last Name</label>
-          <input type="text" class="form-control" id="lastNameInput" placeholder="Enter last name"
+          <label for="lastNameInput" i18n>Last Name</label>
+          <input type="text" class="form-control" id="lastNameInput" placeholder="Enter last name" i18n-placeholder
                  name="lastNameInputName" #lastNameInput="ngModel" [(ngModel)]="data.secondName" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="lastNameInput.errors && $submitted">
-            <p [hidden]="!lastNameInput.errors.required" class="validation-error">
+            <p [hidden]="!lastNameInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -58,13 +58,13 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <label for="countryInput">Country</label>
-          <input type="text" class="form-control" id="countryInput" placeholder="Enter country"
+          <label for="countryInput" i18n>Country</label>
+          <input type="text" class="form-control" id="countryInput" placeholder="Enter country" i18n-placeholder
                  name="countryInputName" #countryInput="ngModel" [(ngModel)]="data.country" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="countryInput.errors && $submitted">
-            <p [hidden]="!countryInput.errors.required" class="validation-error">
+            <p [hidden]="!countryInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -74,13 +74,13 @@
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label for="cityInput">City</label>
-          <input type="text" class="form-control" id="cityInput" placeholder="Enter city"
+          <label for="cityInput" i18n>City</label>
+          <input type="text" class="form-control" id="cityInput" placeholder="Enter city" i18n-placeholder
                  name="cityInputName" #cityInput="ngModel" [(ngModel)]="data.city" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="cityInput.errors && $submitted">
-            <p [hidden]="!cityInput.errors.required" class="validation-error">
+            <p [hidden]="!cityInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -94,13 +94,13 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <label for="addressLine1Input">Address Line 1</label>
-          <input type="text" class="form-control" id="addressLine1Input" placeholder="Enter address line 1"
+          <label for="addressLine1Input" i18n>Address Line 1</label>
+          <input type="text" class="form-control" id="addressLine1Input" placeholder="Enter address line 1" i18n-placeholder
                  name="addressLine1InputName" #addressLine1Input="ngModel" [(ngModel)]="data.addressLine1" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="addressLine1Input.errors && $submitted">
-            <p [hidden]="!addressLine1Input.errors.required" class="validation-error">
+            <p [hidden]="!addressLine1Input.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -110,8 +110,8 @@
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label for="addressLine2Input">Address Line 2</label>
-          <input type="text" class="form-control" id="addressLine2Input" placeholder="Enter address line 2"
+          <label for="addressLine2Input" i18n>Address Line 2</label>
+          <input type="text" class="form-control" id="addressLine2Input" placeholder="Enter address line 2" i18n-placeholder
                  name="addressLine2InputName" #addressLine2Input="ngModel" [(ngModel)]="data.addressLine2">
         </div>
       </div>
@@ -120,20 +120,20 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <label for="zipCodeInput">Zip Code</label>
-          <input type="text" class="form-control" id="zipCodeInput" placeholder="Enter zip"
+          <label for="zipCodeInput" i18n>Zip Code</label>
+          <input type="text" class="form-control" id="zipCodeInput" placeholder="Enter zip" i18n-placeholder
                  name="zipCodeInputName" #zipCodeInput="ngModel" [(ngModel)]="data.zipCode">
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label for="birthInput">Birth Date</label>
-          <input type="date" class="form-control" id="birthInput" placeholder="Enter your birthday"
+          <label for="birthInput" i18n>Birth Date</label>
+          <input type="date" class="form-control" id="birthInput" placeholder="Enter your birthday" i18n-placeholder
                  name="birthInputName" #birthInput="ngModel" [(ngModel)]="data.birthDate" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="birthInput.errors && $submitted">
-            <p [hidden]="!birthInput.errors.required" class="validation-error">
+            <p [hidden]="!birthInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -145,13 +145,13 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <label for="phoneNumberInput">Phone Number</label>
-          <input type="text" class="form-control" id="phoneNumberInput" placeholder="Enter phone number"
+          <label for="phoneNumberInput" i18n>Phone Number</label>
+          <input type="text" class="form-control" id="phoneNumberInput" placeholder="Enter phone number" i18n-placeholder
                  name="phoneNumberInputName" #phoneNumberInput="ngModel" [(ngModel)]="data.phoneNumber" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="phoneNumberInput.errors && $submitted">
-            <p [hidden]="!phoneNumberInput.errors.required" class="validation-error">
+            <p [hidden]="!phoneNumberInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -160,13 +160,13 @@
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label for="weightInput">Weight</label>
-          <input type="number" class="form-control" id="weightInput" placeholder="Enter patient weight"
+          <label for="weightInput" i18n>Weight</label>
+          <input type="number" class="form-control" id="weightInput" placeholder="Enter patient weight" i18n-placeholder
                  name="weightInputName" #weightInput="ngModel" [(ngModel)]="data.weight" required>
 
           <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="weightInput.errors && $submitted">
-            <p [hidden]="!weightInput.errors.required" class="validation-error">
+            <p [hidden]="!weightInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -178,13 +178,13 @@
     <div class="row">
       <div class="col-md-12">
         <div class="form-group">
-          <label for="messageTextarea">Additional Message</label>
-          <textarea class="form-control" id="messageTextarea" placeholder="Enter message"
+          <label for="messageTextarea" i18n>Additional Message</label>
+          <textarea class="form-control" id="messageTextarea" placeholder="Enter message" i18n-placeholder
                     name="messageTextareaName" #messageTextarea="ngModel" [(ngModel)]="data.message"></textarea>
         </div>
       </div>
     </div>
   </form>
 
-  <button class="btn btn-success" (click)="sumbitForm()">Submit form</button>
+  <button class="btn btn-success" (click)="sumbitForm()" i18n>Submit form</button>
 </div>

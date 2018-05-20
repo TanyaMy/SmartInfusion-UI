@@ -15,7 +15,7 @@ import {IDiseaseHistoryList, IDiseaseHistoryListItem} from "../diseaseHistory.mo
 export class DiseaseHistoryListPageComponent implements OnInit {
 
   public diseaseHistoryList: Array<IDiseaseHistoryListItem>;
-  public pageTitle: string;
+  public isPatientPage: boolean;
 
   constructor(private diseaseHistoryResource: DiseaseHistoryResource,
               private preloaderService: PreloaderService,
@@ -51,9 +51,9 @@ export class DiseaseHistoryListPageComponent implements OnInit {
   private updatePageTitle(): void {
     const roleName = this.userService.getUserInfo().roleName;
     if (roleName === AppEnums.roles.doctor || roleName === AppEnums.roles.nurse) {
-      this.pageTitle = "Disease history list";
+      this.isPatientPage = false;
     } else {
-      this.pageTitle = "My disease history";
+      this.isPatientPage = true;
     }
   }
 }

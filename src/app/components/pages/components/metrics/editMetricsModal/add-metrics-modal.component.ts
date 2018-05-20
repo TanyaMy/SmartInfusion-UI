@@ -11,7 +11,7 @@ import {IMetricListItem} from "../metrics.models";
 })
 
 export class AddMetricsModalComponent extends BaseModalComponent<IMetricListItem> {
-  public headerText = 'Add new metrics';
+  public isAddModal = true;
   $submitted = false;
   @Input('diseaseHistoryId') public diseaseHistoryId: number;
 

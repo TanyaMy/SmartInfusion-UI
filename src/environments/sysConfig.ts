@@ -4,13 +4,13 @@ import {Injectable} from '@angular/core';
 export class SysConfig {
   public url;
   public port;
-  public protocol = 'http';
+  public protocol = 'https';
   public fullUrl: string;
 
 
   public constructor() {
-    // this.url = 'trackyourlife-api.azurewebsites.net';
-    this.url = 'localhost:5000';
+    // this.url = 'smartinfusion-api.azurewebsites.net';
+     this.url = 'localhost:5000';
     this.protocol = 'http';
 
     if (this.port) {

@@ -12,7 +12,7 @@ import {IMedicine} from "../medicine.models";
 })
 
 export class AddMedicineModalComponent extends BaseModalComponent<IMedicine> {
-  public headerText = 'Add new medicine';
+  public isAddModal = true;
   $submitted = false;
 
   constructor(modalService: NgbModal, private medicinesResource: MedicinesResource) {

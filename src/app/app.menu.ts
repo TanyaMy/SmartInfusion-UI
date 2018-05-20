@@ -9,7 +9,7 @@ export const MENU = [
         path: r.manage,
         data: {
           menu: {
-            title: 'Manage',
+            title: 'manage',
             icon: null,
             selected: true,
             expanded: false,
@@ -22,7 +22,7 @@ export const MENU = [
             path: [r.medicines],
             data: {
               menu: {
-                title: 'Medicines',
+                title: 'medicines',
                 selected: true,
                 expanded: false,
                 order: 0,
@@ -36,7 +36,7 @@ export const MENU = [
         path: r.diseaseHistory,
         data: {
           menu: {
-            title: 'Patients',
+            title: 'patients',
             icon: null,
             selected: false,
             expanded: false,
@@ -49,7 +49,7 @@ export const MENU = [
             path: r.list,
             data: {
               menu: {
-                title: 'Disease Histories List',
+                title: 'diseaseHistoriesList',
                 icon: null,
                 selected: true,
                 expanded: false,
@@ -62,7 +62,7 @@ export const MENU = [
             path: r.create,
             data: {
               menu: {
-                title: 'Create patient history',
+                title: 'createHistory',
                 icon: null,
                 selected: true,
                 expanded: false,

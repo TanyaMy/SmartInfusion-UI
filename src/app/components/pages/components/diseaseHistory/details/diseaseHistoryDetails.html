@@ -1,6 +1,6 @@
 <div id="disease-history-details-page">
   <div class="container details">
-    <h3>Disease History Details</h3><br/>
+    <h3 i18n>Disease History Details</h3><br/>
     <div class="row">
       <div class="col-md-12">
         <img src="../../../../../assets/img/app/patientDetails.png" width="100%" height="200"/>
@@ -12,33 +12,35 @@
         <img src="../../../../../assets/img/app/patient.ico"/>
       </div>
       <div class="col-md-8">
-        <p><b>Person:</b> {{diseaseHistoryDetails.patientInfo?.firstName}} {{diseaseHistoryDetails.patientInfo?.secondName}}</p>
-        <p><b>Email:</b> {{diseaseHistoryDetails.patientInfo?.email}}</p>
-        <p><b>Phone:</b> {{diseaseHistoryDetails.patientInfo?.phoneNumber}}</p>
-        <p *ngIf="diseaseHistoryDetails.patientInfo?.birthDate"><b>Birth date:</b>
+        <p><b i18n>Person:</b> {{diseaseHistoryDetails.patientInfo?.firstName}} {{diseaseHistoryDetails.patientInfo?.secondName}}</p>
+        <p><b i18n>Email:</b> {{diseaseHistoryDetails.patientInfo?.email}}</p>
+        <p><b i18n>Phone:</b> {{diseaseHistoryDetails.patientInfo?.phoneNumber}}</p>
+        <p *ngIf="diseaseHistoryDetails.patientInfo?.birthDate"><b i18n>Birth date:</b>
           {{getBirthDate(diseaseHistoryDetails.patientInfo?.birthDate)}}</p>
-        <p><b>Country:</b> {{diseaseHistoryDetails.patientInfo?.country}}</p>
-        <p><b>City:</b> {{diseaseHistoryDetails.patientInfo?.city}}</p>
-        <p><b>Address:</b> {{diseaseHistoryDetails.patientInfo?.addressLine1}}</p>
-        <p *ngIf="diseaseHistoryDetails.patientInfo?.zipCode"><b>Zip:</b> {{diseaseHistoryDetails.patientInfo?.zipCode}}</p>
+        <p><b i18n>Country:</b> {{diseaseHistoryDetails.patientInfo?.country}}</p>
+        <p><b i18n>City:</b> {{diseaseHistoryDetails.patientInfo?.city}}</p>
+        <p><b i18n>Address:</b> {{diseaseHistoryDetails.patientInfo?.addressLine1}}</p>
+        <p *ngIf="diseaseHistoryDetails.patientInfo?.zipCode"><b i18n>Zip:</b> {{diseaseHistoryDetails.patientInfo?.zipCode}}</p>
       </div>
     </div>
     <hr/>
 
     <div>
-      <p><b>Message:</b> {{diseaseHistoryDetails.message != null ? diseaseHistoryDetails.message : "no message"}}</p>
+      <p><b i18n>Message:</b> {{diseaseHistoryDetails.message != null ? diseaseHistoryDetails.message : "no message"}}</p>
     </div>
   </div>
   <hr/>
   <div class="container">
-    <h3>Actions</h3>
-    <button class="btn btn-success" (click)="goToMetrics(diseaseHistoryDetails.id)">{{getMetricsActionForRole()}} metrics</button>
-    <button class="btn btn-success" (click)="goToTreatments(diseaseHistoryDetails.id)">{{getTreatmentsActionForRole()}} treatments</button>
+    <h3 i18n>Actions</h3>
+    <button class="btn btn-success" (click)="goToMetrics(diseaseHistoryDetails.id)" *ngIf="isManageMetricsButton" i18n>Manage metrics</button>
+    <button class="btn btn-success" (click)="goToMetrics(diseaseHistoryDetails.id)" *ngIf="!isManageMetricsButton" i18n>View metrics</button>
+    <button class="btn btn-success" (click)="goToTreatments(diseaseHistoryDetails.id)" *ngIf="isManageTreatmentsButton" i18n>Manage treatments</button>
+    <button class="btn btn-success" (click)="goToTreatments(diseaseHistoryDetails.id)" *ngIf="!isManageTreatmentsButton" i18n>View treatments</button>
     <br/><br/>
   </div>
   <hr/>
   <div class="container">
-    <h3>Chart</h3>
+    <h3 i18n>Chart</h3>
     <br/>
       <img src="../../../../../../assets/img/app/diagramm.png" height="100%" width="100%"/>
   </div>

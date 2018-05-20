@@ -1,6 +1,7 @@
 <ng-template #modalContent let-c="close" let-d="dismiss">
   <div class="modal-header">
-    <h4 class="modal-title">{{headerText}}</h4>
+    <h4 class="modal-title" *ngIf="isAddModal" i18n>Add new treatment</h4>
+    <h4 class="modal-title" *ngIf="!isAddModal" i18n>Edit treatment</h4>
     <button type="button" class="close" aria-label="Close" (click)="cancelClose()">
       <span aria-hidden="true">&times;</span>
     </button>
@@ -10,7 +11,7 @@
     <form #treatmentForm="ngForm">
 
       <div class="form-group">
-        <label for="medicinesInput">Medicine</label>
+        <label for="medicinesInput" i18n>Medicine</label>
         <select class="form-control" id="medicinesInput" name="medicinesInputName"
                 #medicinesInput="ngModel" [(ngModel)]="entity.medicineId" required>
           <option *ngFor="let med of medicines" value="{{med.id}}">{{med.title}}</option>
@@ -18,7 +19,7 @@
 
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="medicinesInput.errors && $submitted">
-            <p [hidden]="!medicinesInput.errors.required" class="validation-error">
+            <p [hidden]="!medicinesInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -27,13 +28,13 @@
 
 
       <div class="form-group">
-        <label for="diagnosisTitleInput">Diagnosis</label>
-        <input type="text" class="form-control" id="diagnosisTitleInput" placeholder="Enter diagnosis"
+        <label for="diagnosisTitleInput" i18n>Diagnosis</label>
+        <input type="text" class="form-control" id="diagnosisTitleInput"
                name="diagnosisTitleInputName" #diagnosisTitleInput="ngModel" [(ngModel)]="entity.diagnosis" required autofocus>
 
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="diagnosisTitleInput.errors && $submitted">
-            <p [hidden]="!diagnosisTitleInput.errors.required" class="validation-error">
+            <p [hidden]="!diagnosisTitleInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -41,12 +42,12 @@
       </div>
 
       <div class="form-group">
-        <label for="weighInput">Medicine Weight</label>
+        <label for="weighInput" i18n>Medicine Weight</label>
         <input type="number" [(ngModel)]="entity.medicineWeight" step="0.01"
                class="form-control" id="weighInput" name="weighInputName" #weighInput="ngModel" required>
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="weighInput.errors && $submitted">
-            <p [hidden]="!weighInput.errors.required" class="validation-error">
+            <p [hidden]="!weighInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -55,13 +56,13 @@
 
 
       <div class="form-group">
-        <label for="volumeInput">Solution Volume</label>
-        <input type="number" step="0.01" class="form-control" id="volumeInput" placeholder="Enter medicine weight"
+        <label for="volumeInput" i18n>Solution Volume</label>
+        <input type="number" step="0.01" class="form-control" id="volumeInput"
                name="volumeInputName" #volumeInput="ngModel" [(ngModel)]="entity.solutionVolume" required autofocus>
 
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="volumeInput.errors && $submitted">
-            <p [hidden]="!volumeInput.errors.required" class="validation-error">
+            <p [hidden]="!volumeInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -70,13 +71,13 @@
 
 
       <div class="form-group">
-      <label for="dosageInput">Dosage</label>
-      <input type="number" step="0.01" class="form-control" id="dosageInput" placeholder="Enter dosage"
+      <label for="dosageInput" i18n>Dosage</label>
+      <input type="number" step="0.01" class="form-control" id="dosageInput"
              name="dosageInputName" #dosageInput="ngModel" [(ngModel)]="entity.dosage" required autofocus>
 
       <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="dosageInput.errors && $submitted">
-            <p [hidden]="!dosageInput.errors.required" class="validation-error">
+            <p [hidden]="!dosageInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -85,12 +86,12 @@
 
 
       <div class="form-group">
-        <label for="infusionSpeedInput">Infusion speed</label>
-        <input type="number" step="0.01" class="form-control" id="infusionSpeedInput" placeholder="Enter infusion speed"
+        <label for="infusionSpeedInput" i18n>Infusion speed</label>
+        <input type="number" step="0.01" class="form-control" id="infusionSpeedInput"
                name="infusionSpeedInputName" #infusionSpeedInput="ngModel" [(ngModel)]="entity.infusionSpeed" required autofocus>
 
         <div class="form-control-feedback">
-          <span class="text-danger align-middle" *ngIf="infusionSpeedInput.errors && $submitted">
+          <span class="text-danger align-middle" *ngIf="infusionSpeedInput.errors && $submitted" i18n>
             <p [hidden]="!infusionSpeedInput.errors.required" class="validation-error">
               <i class="fa fa-close"></i> This field is required
             </p>
@@ -103,9 +104,9 @@
   </div>
 
   <div class="modal-footer">
-    <button type="button" class="btn btn-success" (click)="setSubmitted(true) && treatmentForm.valid && save()">
+    <button type="button" class="btn btn-success" (click)="setSubmitted(true) && treatmentForm.valid && save()" i18n>
       Save
     </button>
-    <button type="button" class="btn btn-outline-dark" (click)="cancelClose()">Cancel</button>
+    <button type="button" class="btn btn-outline-dark" (click)="cancelClose()" i18n>Cancel</button>
   </div>
 </ng-template>

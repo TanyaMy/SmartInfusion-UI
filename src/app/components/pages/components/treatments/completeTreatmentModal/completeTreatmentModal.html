@@ -1,6 +1,6 @@
 <ng-template #modalContent let-c="close" let-d="dismiss">
   <div class="modal-header">
-    <h4 class="modal-title">Complete treatment</h4>
+    <h4 class="modal-title" i18n>Complete treatment</h4>
     <button type="button" class="close" aria-label="Close" (click)="cancelClose()">
       <span aria-hidden="true">&times;</span>
     </button>
@@ -10,12 +10,12 @@
     <form #setRequestFinalStatus="ngForm">
 
       <div class="form-group">
-          <button class="btn btn-success" (click)="setSubmitted(true) && completeTreatment(treatmentId)">Complete</button>
+          <button class="btn btn-success" (click)="setSubmitted(true) && completeTreatment(treatmentId)" i18n>Complete</button>
         </div>
     </form>
   </div>
 
   <div class="modal-footer">
-    <button type="button" class="btn btn-outline-dark" (click)="cancelClose()">Cancel</button>
+    <button type="button" class="btn btn-outline-dark" (click)="cancelClose()" i18n>Cancel</button>
   </div>
 </ng-template>

@@ -1,20 +1,20 @@
 <div id="medicines-page">
   <div class="container">
-  <h3>Treatments</h3>
+  <h3 i18n>Treatments</h3>
     <div class="row">
       <div class="col-md-12">
         <img src="../../../../../assets/img/app/treatment.png" width="100" height="200"/>
         <br/><br/><br/>
         <div *ngIf="showEditTreatmentsButton()">
-          <h2>Treatments Actions</h2>
+          <h2 i18n>Treatments Actions</h2>
           <hr/>
-          <button *ngIf="showEditTreatmentsButton()" (click)="showAddTreatmentModal()" class="btn btn-success">Add New Treatment</button>
+          <button *ngIf="showEditTreatmentsButton()" (click)="showAddTreatmentModal()" class="btn btn-success" i18n>Add New Treatment</button>
         </div>
       </div>
     </div>
     <hr/>
     <br/>
-    <h3>Treatments List</h3>
+    <h3 i18n>Treatments List</h3>
     <hr/>
     <br/>
     <div class="row">
@@ -22,7 +22,7 @@
         <img src="../../../../../assets/img/app/search.ico" width="45" height="45"/>
       </div>
       <div class="col-md-11">
-        <input type="text" name="search"  class="form-control" id="search" placeholder="Search.."/>
+        <input type="text" name="search"  class="form-control" id="search" placeholder="Search.." i18n-placeholder/>
       </div>
     </div>
     <br/>
@@ -31,15 +31,15 @@
         <table class="table">
           <thead>
           <tr>
-            <td>Medicine</td>
-            <td>Diagnosis</td>
-            <td>Medicine Weight</td>
-            <td>Solution Volume</td>
-            <td>Dosage</td>
-            <td>Infusion speed</td>
-            <td>Time created</td>
-            <td>Completed</td>
-            <td *ngIf="showEditTreatmentsButton() || showCompleteTreatmentButton()">Actions</td>
+            <td i18n>Medicine</td>
+            <td i18n>Diagnosis</td>
+            <td i18n>Medicine Weight</td>
+            <td i18n>Solution Volume</td>
+            <td i18n>Dosage</td>
+            <td i18n>Infusion speed</td>
+            <td i18n>Time created</td>
+            <td i18n>Completed</td>
+            <td *ngIf="showEditTreatmentsButton() || showCompleteTreatmentButton()" i18n>Actions</td>
           </tr>
           </thead>
           <tbody>
@@ -57,10 +57,10 @@
               <i *ngIf="!treat.isCompleted" class="fa fa-times" style="font-size:30px;color:red"></i>
             </td>
             <td *ngIf="showEditTreatment(treat)">
-              <button class="btn btn-warning" (click)="showEditTreatmentModal(treat.id)">Edit</button>
+              <button class="btn btn-warning" (click)="showEditTreatmentModal(treat.id)" i18n>Edit</button>
             </td>
             <td *ngIf="showCompleteTreatment(treat)">
-              <button class="btn btn-success" (click)="showCompleteTreatmentModal(treat.id)">Complete</button>
+              <button class="btn btn-success" (click)="showCompleteTreatmentModal(treat.id)" i18n>Complete</button>
             </td>
           </tr>
           </tbody>

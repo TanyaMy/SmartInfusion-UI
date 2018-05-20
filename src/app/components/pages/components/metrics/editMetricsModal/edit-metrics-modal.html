@@ -1,6 +1,7 @@
 <ng-template #modalContent let-c="close" let-d="dismiss">
   <div class="modal-header">
-    <h4 class="modal-title">{{headerText}}</h4>
+    <h4 class="modal-title" *ngIf="isAddModal" i18n>Add new metrics</h4>
+    <h4 class="modal-title" *ngIf="!isAddModal" i18n>Edit metrics</h4>
     <button type="button" class="close" aria-label="Close" (click)="cancelClose()">
       <span aria-hidden="true">&times;</span>
     </button>
@@ -9,13 +10,13 @@
   <div class="modal-body">
     <form #metricsForm="ngForm">
       <div class="form-group">
-        <label for="metricsTitleInput">Metrics Name</label>
-        <input type="text" class="form-control" id="metricsTitleInput" placeholder="Enter metrics name"
+        <label for="metricsTitleInput" i18n>Metrics Name</label>
+        <input type="text" class="form-control" id="metricsTitleInput"
                name="metricsTitleInputName" #metricsTitleInput="ngModel" [(ngModel)]="entity.name" required autofocus>
 
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="metricsTitleInput.errors && $submitted">
-            <p [hidden]="!metricsTitleInput.errors.required" class="validation-error">
+            <p [hidden]="!metricsTitleInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -24,13 +25,13 @@
 
 
       <div class="form-group">
-        <label for="valueInput">Value</label>
-        <input type="text" class="form-control" id="valueInput" placeholder="Enter value"
+        <label for="valueInput" i18n>Value</label>
+        <input type="text" class="form-control" id="valueInput"
                name="valueInputName" #valueInput="ngModel" [(ngModel)]="entity.value" required>
 
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="valueInput.errors && $submitted">
-            <p [hidden]="!valueInput.errors.required" class="validation-error">
+            <p [hidden]="!valueInput.errors.required" class="validation-error" i18n>
               <i class="fa fa-close"></i> This field is required
             </p>
           </span>
@@ -41,9 +42,9 @@
   </div>
 
   <div class="modal-footer">
-    <button type="button" class="btn btn-success" (click)="setSubmitted(true) && metricsForm.valid && save()">
+    <button type="button" class="btn btn-success" (click)="setSubmitted(true) && metricsForm.valid && save()" i18n>
       Save
     </button>
-    <button type="button" class="btn btn-outline-dark" (click)="cancelClose()">Cancel</button>
+    <button type="button" class="btn btn-outline-dark" (click)="cancelClose()" i18n>Cancel</button>
   </div>
 </ng-template>

@@ -6,7 +6,9 @@
      (click)="navigateUrl(menuItem)"
      routerLinkActive="active" [target]="menuItem.target" class="al-sidebar-list-link">
     <i *ngIf="menuItem.icon" class="{{ menuItem.icon }}"></i>
-    <span class="item-title">{{ menuItem.title }}</span>
+    <span class="item-title" *ngIf="menuItem.title === 'medicines'" i18n>Medicines</span>
+    <span class="item-title" *ngIf="menuItem.title === 'diseaseHistoriesList'" i18n>Disease Histories List</span>
+    <span class="item-title" *ngIf="menuItem.title === 'createHistory'" i18n>Create Disease History</span>
     <img *ngIf="menuItem.img && menuItem.selected" [src]="menuItem.img"/>
     <img *ngIf="menuItem.img && !menuItem.selected" [src]="menuItem.unactiveimg"/>
 
@@ -20,7 +22,9 @@
 
   <a *ngIf="menuItem.children && menuItem.children.length > 0" (mouseenter)="onHoverItem($event, item)"
      (click)="onToggleSubMenu($event, menuItem)" class="al-sidebar-list-link">
-    <i *ngIf="menuItem.icon" class="{{ menuItem.icon }}"></i><span>{{ menuItem.title }}</span>
+    <i *ngIf="menuItem.icon" class="{{ menuItem.icon }}"></i>
+    <span *ngIf="menuItem.title === 'manage'" i18n>Manage</span>
+    <span *ngIf="menuItem.title === 'patients'" i18n>Patients</span>
     <img *ngIf="menuItem.img && menuItem.selected" [src]="menuItem.img"/>
     <img *ngIf="menuItem.img && !menuItem.selected" [src]="menuItem.unactiveimg"/>
     <b class="fa fa-angle-down" [ngClass]="{'fa-angle-up': menuItem.expanded}"></b>

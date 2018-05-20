@@ -1,16 +1,15 @@
-@import '../../../../styles/sass/conf/conf';
 
 $angle-left: "\f100";
 $angle-right: "\f101";
 
 .al-sidebar {
-  width: $sidebar-width;
   //top: $top-height;
+  width: 15%;
   left: 0;
   z-index: 1001;
   display: block;
   min-height: 100%;
-  background-color: $sidebar;
+  background-color: black;
   height: 100%;
   position: fixed;
 
@@ -50,18 +49,19 @@ $angle-right: "\f101";
   display: block;
   position: relative;
   float: none;
+  color: lightgreen;
   padding: 0;
   margin-left: 10px;
   margin-right: 10px;
 
   &.selected:not(.with-sub-menu) {
-    background-color: $side-bat-selected-bg;
+    background-color: lightcyan;
     border-color: #3c8dbc;
 
     a.al-sidebar-list-link {
-      color: $side-bat-selected-color;
+      color: lightcyan;
       b {
-        color: $side-bat-selected-color;
+        color: lightcyan;
       }
     }
   }
@@ -74,7 +74,7 @@ $angle-right: "\f101";
 }
 
 .app-sidebar-item-expanded {
-  background-color: $side-bat-selected-bg;
+  background-color: darkslategrey;
   > ul.al-sidebar-sublist {
     display: none;
     //display: block !important;
@@ -84,10 +84,10 @@ $angle-right: "\f101";
 .al-sidebar-list-item, .app-sidebar-sublist-item {
   &.app-sidebar-item-expanded {
     > .al-sidebar-list-link {
-      color: $side-bat-selected-color;
+      color: lightcyan;
       b {
         transform: rotate(180deg);
-        color: $side-bat-selected-color;
+        color: lightcyan;
       }
     }
 
@@ -119,7 +119,6 @@ a.al-sidebar-list-link:not([href]):not([tabindex]) {
   text-shadow: none;
   font-size: 14px;
   text-decoration: none;
-  color: $sidebar-text;
   line-height: 42px;
   white-space: nowrap;
   overflow: hidden;
@@ -149,7 +148,6 @@ a.al-sidebar-list-link:not([href]):not([tabindex]) {
     top: 12px;
     padding: 0;
     text-align: center;
-    color: $sidebar-text;
     transition: transform 0.2s linear;
   }
 }
@@ -190,7 +188,6 @@ a.al-sidebar-list-link:not([href]):not([tabindex]) {
       text-shadow: none;
       font-size: 14px;
       text-decoration: none;
-      color: $sidebar-text;
       // padding-left: 52px;
       height: auto;
       line-height: 29px;
@@ -202,11 +199,7 @@ a.al-sidebar-list-link:not([href]):not([tabindex]) {
       border: none;
       padding-top: 5px;
       padding-bottom: 5px;
-      background-color: $side-bar-selected-submenu-bg;
-      color: $side-bat-selected-color;
-      &:hover {
-        color: $side-bat-selected-color;
-      }
+
     }
 
   }
@@ -224,8 +217,7 @@ a.al-sidebar-list-link:not([href]):not([tabindex]) {
 
 @mixin sidebar-collapsed() {
   .al-sidebar {
-    width: $sidebar-width-collapsed;
-
+    width: 200px;
     .al-sidebar-list {
       .al-sidebar-list-item {
         > a.al-sidebar-list-link {
@@ -296,7 +288,7 @@ a.al-sidebar-list-link:not([href]):not([tabindex]) {
 
 @mixin sidebar-overlap() {
   .al-sidebar {
-    width: $sidebar-width;
+    width: 500px;
     @include bg-translucent-dark(0.75);
     //transition: width 0.5s ease;
 
@@ -329,21 +321,21 @@ a.al-sidebar-list-link:not([href]):not([tabindex]) {
   }
 }
 
-@media (min-width: $resXS + 1) {
+
+@media (min-width: 200px + 1) {
   .menu-collapsed {
-    @include sidebar-collapsed();
+
   }
 }
 
-@media (max-width: 1200px) and (min-width: $resXS) {
-  @include layout-collapsed();
+@media (max-width: 1200px) and (min-width: 200px) {
+
 }
 
 @media (max-width: 1200px) {
-  @include sidebar-overlap();
 }
 
-@media (max-width: $resXS) {
+@media (max-width: 500px) {
   .menu-collapsed {
     @include sidebar-hidden();
   }

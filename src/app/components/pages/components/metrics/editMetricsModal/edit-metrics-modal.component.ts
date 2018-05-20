@@ -13,7 +13,7 @@ import {MetricsResource} from "../metrics.resource";
 
 export class EditMetricsModalComponent extends BaseModalComponent<IMetricListItem> {
   @Input('diseaseHistoryId') public diseaseHistoryId: number;
-  public headerText = 'Edit metrics';
+  public isAddModal = false;
   $submitted = false;
 
   constructor(modalService: NgbModal, private metricsResource: MetricsResource) {

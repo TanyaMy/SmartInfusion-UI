@@ -21,6 +21,8 @@ export class DiseaseHistoryDetailsPageComponent implements OnInit, OnDestroy {
   public diseaseHistoryId: number;
   public medicines: Array<IMedicineListItem>;
   private subscription: Subscription;
+  public isManageTreatmentsButton: boolean;
+  public isManageMetricsButton: boolean;
 
   constructor(private diseaseHistoryResource: DiseaseHistoryResource,
               private medicinesResource: MedicinesResource,
@@ -36,6 +38,8 @@ export class DiseaseHistoryDetailsPageComponent implements OnInit, OnDestroy {
     this.diseaseHistoryDetails = {} as IDiseaseHistoryDetailsViewModel;
     this.subscription = this.route.params.subscribe(params => {
       this.diseaseHistoryId = +params['diseaseHistoryId'];
+      this.getTreatmentsActionForRole();
+      this.getMetricsActionForRole();
 
       Promise.all([
         this.getMedicines(),
@@ -86,10 +90,10 @@ export class DiseaseHistoryDetailsPageComponent implements OnInit, OnDestroy {
   public getTreatmentsActionForRole() {
     const roleName = this.userService.getUserInfo().roleName;
     if (roleName === AppEnums.roles.doctor) {
-      return "Manage";
+      this.isManageTreatmentsButton = true;
     }
     if (roleName === AppEnums.roles.nurse) {
-      return "View";
+      this.isManageTreatmentsButton = false;
     }
     return "";
   }
@@ -97,10 +101,10 @@ export class DiseaseHistoryDetailsPageComponent implements OnInit, OnDestroy {
   public getMetricsActionForRole() {
     const roleName = this.userService.getUserInfo().roleName;
     if (roleName === AppEnums.roles.doctor) {
-      return "View";
+      this.isManageMetricsButton = false;
     }
     if (roleName === AppEnums.roles.nurse) {
-      return "Manage";
+      this.isManageMetricsButton = true;
     }
     return "";
   }

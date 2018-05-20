@@ -15,7 +15,7 @@ import {IMedicineListItem} from "../../medicines/medicine.models";
 
 export class EditTreatmentModalComponent extends BaseModalComponent<ITreatmentViewModel> {
   @Input('diseaseHistoryId') public diseaseHistoryId: number;
-  public headerText = 'Edit treatment';
+  public isAddModal = false;
   $submitted = false;
   @Input('medicines') public medicines: Array<IMedicineListItem> = [];
 

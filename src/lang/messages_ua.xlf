@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru">
+    <body>
+      <trans-unit id="7edffe2a2f09a8c2944a475bb5fbd985961ae89c" datatype="html" approved="no"><source>Medicines</source><target state="new" xml:lang="ru">Препарати</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\menu\components\menuItem\menuItem.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c793483d669ef0fec33ad08d24dc10d2bb4a7906" datatype="html" approved="no"><source>Disease Histories List</source><target state="new" xml:lang="ru">Исторії хвороб</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\menu\components\menuItem\menuItem.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="30f7c5c2dc7c0347597edeb45750d3c8bf077a1b" datatype="html" approved="no"><source>Create Disease History</source><target state="new" xml:lang="ru">Створити історію хвороби</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\menu\components\menuItem\menuItem.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="68949525c4d9a901e0cd15a94e3fc8d2711e9918" datatype="html" approved="no"><source>Manage</source><target state="new" xml:lang="ru">Управління</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\menu\components\menuItem\menuItem.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="0fb6c83d8d98eba7f617f19684a8fe729c4e94c7" datatype="html" approved="no"><source>Patients</source><target state="new" xml:lang="ru">Пацієнти</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\menu\components\menuItem\menuItem.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html" approved="no"><source>Home</source><target state="new" xml:lang="ru">Домашня сторінка</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\profileTopBar\profileTopBar.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="994363f08f9fbfa3b3994ff7b35c6904fdff18d8" datatype="html" approved="no"><source>Profile</source><target state="new" xml:lang="ru">Профіль</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\profileTopBar\profileTopBar.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html" approved="no"><source>Logout</source><target state="new" xml:lang="ru">Вийти</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\profileTopBar\profileTopBar.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html" approved="no"><source>Login</source><target state="new" xml:lang="ru">Увійти до систему</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\common\components\profileTopBar\profileTopBar.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="3317124db9bfb48ce37463c0757bd6946ba33c40" datatype="html" approved="no"><source>Add new medicine</source><target state="new" xml:lang="ru">Додати новий препарат</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="4692e63812ed3a23c4441d5dd7e3c67e15b4935f" datatype="html" approved="no"><source>Edit medicine</source><target state="new" xml:lang="ru">Редагувати препарат</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="18d01d33ce83e4a26eb2c48b24007b790fec1041" datatype="html" approved="no"><source>Medicine Title</source><target state="new" xml:lang="ru">Назва препарата</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="460a8c092d03d73f8086bc669d8b40eb2963a4d4" datatype="html" approved="no"><source>
+              <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> This field is required
+            </source><target state="new" xml:lang="ru"> <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Це поле обов'язково</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">83</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">136</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">154</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">169</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html" approved="no"><source>Description</source><target state="new" xml:lang="ru">Опис</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="2a62a59d9424e9e869061ebf3e8f8b8f95411571" datatype="html" approved="no"><source>
+      Save
+    </source><target state="new" xml:lang="ru"> Зберегти </target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">107</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">107</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html" approved="no"><source>Cancel</source><target state="new" xml:lang="ru">Відмінити</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\add-medicine-modal.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\editMedicineModal\edit-medicine-modal.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">110</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">110</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\completeTreatmentModal\completeTreatmentModal.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="31f123ce521b3b03480e9c0902a9f4632ee5df05" datatype="html" approved="no"><source>Medicines Actions</source><target state="new" xml:lang="ru">Дії</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="5f904183afc18c28dea45c2584cabca0167ddeba" datatype="html" approved="no"><source>Add New Medicine</source><target state="new" xml:lang="ru">Додати новий препарат</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="9e5c24939b095bc73d4bb065356b64e81c49101d" datatype="html" approved="no"><source>Medicines List</source><target state="new" xml:lang="ru">Список препаратів</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="d1d474f85f06ed3c0ec19fa3d5d588251842db48" datatype="html" approved="no"><source>Search..</source><target state="new" xml:lang="ru">Пошук..</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="2798cc1e152b1ec07fd8daf94a2a073d1ba1ebcc" datatype="html" approved="no"><source>Id</source><target state="new" xml:lang="ru">№</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="fdf7cbdc140d0aab0f0b6c06065a0fd448ed6a2e" datatype="html" approved="no"><source>Title</source><target state="new" xml:lang="ru">Назва</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="030b4423b92167200e39519599f9b863b4f7c62c" datatype="html" approved="no"><source>Actions</source><target state="new" xml:lang="ru">Дії</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c" datatype="html" approved="no"><source>Edit</source><target state="new" xml:lang="ru">Редагувати</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\medicines\medicine.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="187776888be9bb08e1b6dd24dd4fd688656f6327" datatype="html" approved="no"><source>Disease history was created successfully. Have a nice day!</source><target state="new" xml:lang="ru">Історія хвороби збережена. Доброго дня!</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\requestSent\requestSent.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html" approved="no"><source>Email</source><target state="new" xml:lang="ru">Email-адреса</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="30054c89b9ec4c5a6720aa3bb7710aac0db2285c" datatype="html" approved="no"><source>Enter email</source><target state="new" xml:lang="ru">Введіть Email-адресу</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c227097d22696e6e69ec61658a58cb180e5d8500" datatype="html" approved="no"><source>
+              <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> This field should contain valid email address
+            </source><target state="new" xml:lang="ru"> <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Це поле повинно вміщувати валідний email</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c83b838d845690bcb897f775f53b5316535306dc" datatype="html" approved="no"><source>First Name</source><target state="new" xml:lang="ru">Ім'я</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="793b2ebfa7945d68f51d17f58919e871cc27d19f" datatype="html" approved="no"><source>Enter first name</source><target state="new" xml:lang="ru">Введіть ім'я</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="166b2cc65003221ff5f3ec05d5baca41e6821396" datatype="html" approved="no"><source>Last Name</source><target state="new" xml:lang="ru">Прізвище</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c9f4c1f3b83a04538af3540d201191f8bcad0f45" datatype="html" approved="no"><source>Enter last name</source><target state="new" xml:lang="ru">Введіть прізвище</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="a43f25a9ac40e8e2441ff0be7a36b8e5d15534df" datatype="html" approved="no"><source>Country</source><target state="new" xml:lang="ru">Країна</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="f0b465a5e7cd68cfbebc807709f0deccb4c1f32a" datatype="html" approved="no"><source>Enter country</source><target state="new" xml:lang="ru">Введіть країну</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="5c7012b5a926b32d9e45fefdcc8a1a3cb6f023d0" datatype="html" approved="no"><source>City</source><target state="new" xml:lang="ru">Місто</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="7a2773cecf1d51925bb0c1471eee7d0962fa3ca6" datatype="html" approved="no"><source>Enter city</source><target state="new" xml:lang="ru">Введіть місто</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="174584f1fe32d5f39f5610bb497ed7227607eb37" datatype="html" approved="no"><source>Address Line 1</source><target state="new" xml:lang="ru">Адреса 1</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="dab71123d7a598251b6a1738af4a41a7822dd1a2" datatype="html" approved="no"><source>Enter address line 1</source><target state="new" xml:lang="ru">Введіть адресу 1</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">98</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="0ac117d3ce2bff563db56619f35f3041efa81d29" datatype="html" approved="no"><source>Address Line 2</source><target state="new" xml:lang="ru">Адреса 2</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="3b19233449d854a106f28d433c47461aabb91724" datatype="html" approved="no"><source>Enter address line 2</source><target state="new" xml:lang="ru">Введіть адресу 2</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">114</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="f5ba4ffd613669a7e26d40ef759ffa52682cdd2d" datatype="html" approved="no"><source>Zip Code</source><target state="new" xml:lang="ru">Поштовий індекс</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">123</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="b9add6c50172abac18b11718c72edf11ae681dc8" datatype="html" approved="no"><source>Enter zip</source><target state="new" xml:lang="ru">Введіть поштовий індекс</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">124</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c7958d835569ddb937a9c522e2505b9d86468ca5" datatype="html" approved="no"><source>Birth Date</source><target state="new" xml:lang="ru">Дата народження</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">130</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="207cde5a312b081fbad1cb6a18d1093672016d1a" datatype="html" approved="no"><source>Enter your birthday</source><target state="new" xml:lang="ru">Введіть дату народження</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">131</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="db654f91d847f34e71ffb99268ff3a1807913421" datatype="html" approved="no"><source>Phone Number</source><target state="new" xml:lang="ru">Номер телефону</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">148</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="a97e5e253f60e74c1c557bed7af0c436c7d4c92a" datatype="html" approved="no"><source>Enter phone number</source><target state="new" xml:lang="ru">Введіть номер телефону</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">149</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="919f2fd60a898850c24b1584362bbf18a4628bcb" datatype="html" approved="no"><source>Weight</source><target state="new" xml:lang="ru">Вага</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">163</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="e1f7351bf393c53312f3f5d0350b0d3e1bf5ef9a" datatype="html" approved="no"><source>Enter patient weight</source><target state="new" xml:lang="ru">Введіте вагу пацієнта</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">164</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="b7efd9b4328bbef719a6931cc5db10d62374131f" datatype="html" approved="no"><source>Additional Message</source><target state="new" xml:lang="ru">Додаткові відомості</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">181</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="9a096c6cbd75061c3611bd024ad101cdcc5fb7ca" datatype="html" approved="no"><source>Enter message</source><target state="new" xml:lang="ru">Введіть додаткові відомості</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">182</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="acbb8bce9006a8f39531c7859bc95453021974c2" datatype="html" approved="no"><source>Submit form</source><target state="new" xml:lang="ru">Відправити</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistoryForm\createDiseaseHistoryForm.component.ts</context>
+          <context context-type="linenumber">189</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="528baefc3e1b0598c0deb248de42276747dd4059" datatype="html" approved="no"><source>Creating new disease history.</source><target state="new" xml:lang="ru">Створення нової історії хвороби.</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\createDiseaseHistory\components\createDiseaseHistory.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="64fd92b9c1e7f73bd843c4aba4ba66a0689c7d1b" datatype="html" approved="no"><source>My Disease Histories</source><target state="new" xml:lang="ru">Мої історії хвороби</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="501f0f92690257c8d450c952a995caa93248a331" datatype="html" approved="no"><source>Disease History List</source><target state="new" xml:lang="ru">Історії хвороби</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="62b6c66981335ca6eecc36b331103c60f09d1026" datatype="html" approved="no"><source>First name</source><target state="new" xml:lang="ru">Ім'я</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="afc3ee8bb12c3bbefd1a6be24c2733c91166e39f" datatype="html" approved="no"><source>Second name</source><target state="new" xml:lang="ru">Прізвище</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html" approved="no"><source>Details</source><target state="new" xml:lang="ru">Деталі</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\diseaseHistoryList\diseaseHistoryList.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="a1e0e798e5f23850eb832a0497d6c237eb3e9a05" datatype="html" approved="no"><source>Disease History Details</source><target state="new" xml:lang="ru">Деталі історії хвороби</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="d166fcac0695c44d7f54a28523e1c5d63edc4373" datatype="html" approved="no"><source>Person:</source><target state="new" xml:lang="ru">ПІ:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="91b96d7228b6e05c238fa4e39abfc17ad51a6eef" datatype="html" approved="no"><source>Email:</source><target state="new" xml:lang="ru">Email:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="3a56771d1062b04a2b362d5ed1da622659afae7b" datatype="html" approved="no"><source>Phone:</source><target state="new" xml:lang="ru">Телефон:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="a54f1ce32b15d983d7d48c13f902405b082a77d6" datatype="html" approved="no"><source>Birth date:</source><target state="new" xml:lang="ru">Дата народження:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="33d64f1b5578cd3ff6413272a9bf0384e9c8626b" datatype="html" approved="no"><source>Country:</source><target state="new" xml:lang="ru">Країна:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="5f71766970c93d82a621274e3914ac401fbdebfa" datatype="html" approved="no"><source>City:</source><target state="new" xml:lang="ru">Місто:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="77d1599df7c49bca99809fb3cce8e3856968d458" datatype="html" approved="no"><source>Address:</source><target state="new" xml:lang="ru">Адреса:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="1a97a4d5593788dd59ea29b081fa043fd070f3e0" datatype="html" approved="no"><source>Zip:</source><target state="new" xml:lang="ru">Поштовий індекс:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="8865ed3834a850ae6123ce54f380aac3f0b88fe2" datatype="html" approved="no"><source>Message:</source><target state="new" xml:lang="ru">Додаткові відомості:</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="e29fae8c47db4bab5877cbc6377b7e37538a6aca" datatype="html" approved="no"><source>Manage metrics</source><target state="new" xml:lang="ru">Управління метриками</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="d413c1f8f0e9a2037be61192dcd7943575f836aa" datatype="html" approved="no"><source>View metrics</source><target state="new" xml:lang="ru">Перегляд метрик</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="b06cd95b74eac043251145442f45391acabc2abb" datatype="html" approved="no"><source>Manage treatments</source><target state="new" xml:lang="ru">Управління призначеннями</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="e1055ad7451834a979f78494ec49fa755a1fef6f" datatype="html" approved="no"><source>View treatments</source><target state="new" xml:lang="ru">Перегляд призначень</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="5c60cf3d8e34731a4d9c2f3ff3cae128055d80a4" datatype="html" approved="no"><source>Chart</source><target state="new" xml:lang="ru">Діаграма</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\diseaseHistory\details\diseaseHistoryDetails.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="df473ee319e9c75e9e8204f0f6aa801da6cc8353" datatype="html" approved="no"><source>Add new metrics</source><target state="new" xml:lang="ru">Додати нову метрику</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="e562a5b47d12317eba9c6a01e71736e4324cd0ca" datatype="html" approved="no"><source>Edit metrics</source><target state="new" xml:lang="ru">Редагування метрики</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c800d770c2a7c9c86b61ff0ea0cfa3d08d47f72a" datatype="html" approved="no"><source>Metrics Name</source><target state="new" xml:lang="ru">Назва метрики</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="5049e204c14c648691ac775a64fb504467aeb549" datatype="html" approved="no"><source>Value</source><target state="new" xml:lang="ru">Значення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\add-metrics-modal.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\editMetricsModal\edit-metrics-modal.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="447ffd4cbfd3d8c3ca8dd216c0a82ecadc24a7de" datatype="html" approved="no"><source>Metrics</source><target state="new" xml:lang="ru">Метрики</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="483efb16496232c941ea6e9c41d9081edeb5c228" datatype="html" approved="no"><source>Metrics Actions</source><target state="new" xml:lang="ru">Дії</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="52a86a03279f7afdb6130ff0d809423b5b2f177c" datatype="html" approved="no"><source>Add New Metrics</source><target state="new" xml:lang="ru">Додати нову метрику</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="50878c3785134cadda0d59081cf992d46dbfff13" datatype="html" approved="no"><source>Metrics List</source><target state="new" xml:lang="ru">Список метрик</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html" approved="no"><source>Name</source><target state="new" xml:lang="ru">Назва</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="3430e2e27c3354d33f00476262d5f22a6f4c6da5" datatype="html" approved="no"><source>Time created</source><target state="new" xml:lang="ru">Час створення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\metrics\metrics.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="fc78ad0ac1710b52fa35040ab3f60f98727fbba2" datatype="html" approved="no"><source>Add new treatment</source><target state="new" xml:lang="ru">Додати нове значення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="64e50cd46918a83f15fd03a3c60fd30b53fd7ef9" datatype="html" approved="no"><source>Edit treatment</source><target state="new" xml:lang="ru">Редагувати призначення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="369005ce2ff1b0f8f7a647151506757c79c714dc" datatype="html" approved="no"><source>Medicine</source><target state="new" xml:lang="ru">Препарат</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="f5bca1910ff6fb82e09778960ce67e2051df199a" datatype="html" approved="no"><source>Diagnosis</source><target state="new" xml:lang="ru">Діагноз</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="e3938223d77736b27b0fb61fe5dfd03308a49ad0" datatype="html" approved="no"><source>Medicine Weight</source><target state="new" xml:lang="ru">Вага препарата</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c605da5d43809ef1e7efce96dd4c345a23bc0ea1" datatype="html" approved="no"><source>Solution Volume</source><target state="new" xml:lang="ru">Об'єм розчину</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="33855298fc86c8275ed0409d4778723ee18517c8" datatype="html" approved="no"><source>Dosage</source><target state="new" xml:lang="ru">Дозування</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="710ab70cad54ea851654ab0ee448b442bcbdf481" datatype="html" approved="no"><source>Infusion speed</source><target state="new" xml:lang="ru">Швидкість введення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="fd7c73f48a9f9cd57669c100a5cef2137927f6b2" datatype="html" approved="no"><source>
+            <x id="START_PARAGRAPH" ctype="x-p"/>
+              <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> This field is required
+            <x id="CLOSE_PARAGRAPH" ctype="x-p"/>
+          </source><target state="new" xml:lang="ru"> <x id="START_PARAGRAPH" ctype="x-p"/> <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Це поле обов'язкове<x id="CLOSE_PARAGRAPH" ctype="x-p"/> </target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\add-treatment-modal.component.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\editTreatmentModal\edit-treatment-modal.component.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="3930c8d286d65a82864f20ee83a5277c3695be63" datatype="html" approved="no"><source>Complete treatment</source><target state="new" xml:lang="ru">Виконати призначення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\completeTreatmentModal\completeTreatmentModal.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="bf612b44e3ba6c05c219aceac6a6ed6c37df1dc4" datatype="html" approved="no"><source>Complete</source><target state="new" xml:lang="ru">Виконати</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\completeTreatmentModal\completeTreatmentModal.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="fc5f0f619c3b02dc1f12fb270081bf393bb70588" datatype="html" approved="no"><source>Treatments</source><target state="new" xml:lang="ru">Призначення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="6fb9b627205e4bef1a7b48cf265f4905148dab0a" datatype="html" approved="no"><source>Treatments Actions</source><target state="new" xml:lang="ru">Дії</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="5ef59a0d5aee59e00efa684b9271f859f29839b6" datatype="html" approved="no"><source>Add New Treatment</source><target state="new" xml:lang="ru">Додати нове призначення</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="a675518c14250d73a77668201c0ae7ce4f9d6b86" datatype="html" approved="no"><source>Treatments List</source><target state="new" xml:lang="ru">Список призначень</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="a7c328c4773db932ff14a1954e15e43dca58e7b7" datatype="html" approved="no"><source>Completed</source><target state="new" xml:lang="ru">Виконано</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\pages\components\treatments\treatments.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c51a7c55bd43dcd860a570ae4e00f22030f8dbb3" datatype="html" approved="no"><source>Please Login</source><target state="new" xml:lang="ru">Будь ласка, увійдіть до системи</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="76ac4642f2d845f70b3b3d784cccb88212855d5a" datatype="html" approved="no"><source>E-Mail Address</source><target state="new" xml:lang="ru">E-Mail адреса</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="60faca92d635a6dc355f1758f68cbec97d73f774" datatype="html" approved="no"><source>
+              <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> This field should contain valid email
+            </source><target state="new" xml:lang="ru"> <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Це поле повинно вміщати валідний email</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html" approved="no"><source>Password</source><target state="new" xml:lang="ru">Пароль</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="ebdb0184791899fea2c190bdf40ac35141301ac5" datatype="html" approved="no"><source>
+              <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> This field should has not less that 6 symbols
+            </source><target state="new" xml:lang="ru"> <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Это поле должно содержать не менее 6 сомволовЦе поле повинно вміщувати не менш 6 символів</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="3eb49d60bd859eb2d9d3a6d380cdf4e0b8252333" datatype="html" approved="no"><source>Remember me</source><target state="new" xml:lang="ru">Запам'ятати мене</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="34cc9ec35554e2e640be1aba22d5f999f86fd418" datatype="html" approved="no"><source><x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Login</source><target state="new" xml:lang="ru"><x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/> Увійти до системи</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="be95ff6f3d39423936fc148d197e7b0a9df95756" datatype="html" approved="no"><source>Go Home</source><target state="new" xml:lang="ru">На домашню сторінку</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\login\login.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="f25d91f68ef8570611f9132709bbe19cdaef4138" datatype="html" approved="no"><source>Smart system</source><target state="new" xml:lang="ru">Розумна система</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\home\home.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="3cfab35fd1ea1be0ceaa2062d136639281c1d433" datatype="html" approved="no"><source>to control</source><target state="new" xml:lang="ru">для контролю</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\home\home.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="50b3e15578281f33f410030a4d5fcbcde8ca4289" datatype="html" approved="no"><source>infusion process</source><target state="new" xml:lang="ru">процессу инфузії</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\home\home.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="01090acefd1ef0417126f00335dade83e62a67ef" datatype="html" approved="no"><source>Smart Infusion system</source><target state="new" xml:lang="ru">Система Smart Infusion</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\home\home.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="75c642ecfe7aafee8be642ff2e26792e93a77e3a" datatype="html" approved="no"><source>"Smart" infusion pumps are medication delivery devices that use a combination of computer technology and drug libraries to limit the potential for dosing errors. The evidence for their impact is limited: they have been shown to prevent some errors but there are minimal data linking the devices to reducing harm.</source><target state="new" xml:lang="ru">Система для введення інфузій, розроблена для клінік, медичних центрів, лікарень. У пристрої можна використовувати цілих 4 види анестетиків. "Розумний" апарат вводить інфузії потрібної концентрації із заданою швидкістю.</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\home\home.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+      <trans-unit id="ac5dd725a9546a8e8c5cad95b0dc41376eb55ce2" datatype="html" approved="no"><source> Reasons for the limited impact include poor design leading to usability issues including programming errors, varying degrees of end-user acceptance, and their contingent nature. Iterative user-centered design, coupled with network and real-time monitoring of alerts may enhance the impact of these devices.</source><target state="new" xml:lang="ru">хороший контроль над симптомами, завдяки гарній доставці лікарського речовини; осутствіе необхідності множинних болючих ін'єкцій; забезпечує введення доз протягом 24 годин; насос не обмежує рухливість і незалежність пацієнта;</target><context-group purpose="location">
+          <context context-type="sourcefile">src\app\components\home\home.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group><?sid 1110954287-0?></trans-unit>
+    </body>
+  </file>
+</xliff>

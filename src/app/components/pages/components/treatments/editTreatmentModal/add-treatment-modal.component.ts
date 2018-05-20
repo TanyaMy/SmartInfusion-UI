@@ -12,7 +12,7 @@ import {IMedicineListItem} from "../../medicines/medicine.models";
 })
 
 export class AddTreatmentModalComponent extends BaseModalComponent<ITreatmentViewModel> implements OnInit {
-  public headerText = 'Add new treatment';
+  public isAddModal = true;
   $submitted = false;
   @Input('diseaseHistoryId') public diseaseHistoryId: number;
   @Input('medicines') public medicines: Array<IMedicineListItem> = [];

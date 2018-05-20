@@ -13,7 +13,7 @@ import {IContentResponseWrapper} from "../../../../../models/interfaces/apiRespo
 })
 
 export class EditMedicineModalComponent extends BaseModalComponent<IMedicine> {
-  public headerText = 'Edit medicine';
+  public isAddModal = false;
   $submitted = false;
 
   constructor(modalService: NgbModal, private medicinesResource: MedicinesResource) {

@@ -26,8 +26,9 @@
 
       <div class="form-group">
         <label for="descriptionInput" i18n>Description</label>
-        <input type="text" class="form-control" id="descriptionInput"
+        <textarea class="form-control" id="descriptionInput" rows="10"
                name="descriptionInputName" #descriptionInput="ngModel" [(ngModel)]="entity.description" required>
+        </textarea>
 
         <div class="form-control-feedback">
           <span class="text-danger align-middle" *ngIf="descriptionInput.errors && $submitted">

@@ -7,7 +7,6 @@ export interface ITreatmentViewModel {
   diseaseHistoryId: number;
   medicineId: number;
   diagnosis: string;
-  medicineWeight: number;
   solutionVolume: number;
   dosage: number;
   infusionSpeed: number;
